@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+    color: #444444;
+}
+.uni-padding{
+    padding: 0px 50px;
+}
+
+
+
+/* header */
+header{
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+}
+
+/* nav-left */
+#nav-left{
+    color: #444444;
+    overflow: auto;
+    padding-top: 15px;
+    /* padding-bottom: 5px; */
+}
+#nav-left img{
+    width: 50px;
+    float: left;
+}
+.nav-left-text{
+    margin-top: 6px;
+    overflow: auto;
+}
+#nav-left h3{
+    font-weight: bold;
+    padding-left: 15px;
+}
+#nav-left p{
+    font-size: 12px;
+    padding-left: 15px;
+}
+
+/* nav-right */
+#nav-links a{
+    text-decoration: none;
+}
+#contact a{
+    font-size: 15px;
+    position: absolute;
+    top: 29px;
+    right: 50px;
+}
+#about a{
+    font-size: 15px;
+    position: absolute;
+    top: 29px;
+    right: 163px;
+}
+#portfolio a{
+    font-size: 15px;
+    position: absolute;
+    top: 29px;
+    right: 260px;
+}
+#home a{
+    font-size: 15px;
+    position: absolute;
+    top: 29px;
+    right: 383px;
+}
+
+#home a:hover{
+    top: 19px;
+    right: 368px;
+    color: white;
+    background-color: #1bbc9b;
+    padding: 8px 15px;
+    border-radius: 3px;
+}
+#portfolio a:hover{
+    top: 19px;
+    right: 245px;
+    color: white;
+    background-color: #1bbc9b;
+    padding: 8px 15px;
+    border-radius: 3px;
+}
+#about a:hover{
+    top: 19px;
+    right: 148px;
+    color: white;
+    background-color: #1bbc9b;
+    padding: 8px 15px;
+    border-radius: 3px;
+}
+#contact a:hover{
+    top: 19px;
+    right: 35px;
+    color: white;
+    background-color: #1bbc9b;
+    padding: 8px 15px;
+    border-radius: 3px;
+    /* transition: all 50ms ease-in-out; */
+    
+}
+
+
+/* footer */
+footer{
+    background-color: #2d3e50;
+    padding: 20px 0px ;
+}
+footer .uni-padding{
+    display: flex;
+    justify-content: space-between;
+}
+#copy-div p{
+    color: white;
+}
+#copy-div,
+.up-arrow{
+    align-self: center;
+}
+.fa-angle-up{
+    color: white;
+    align-self: center;
+    font-size: 23px;
+    padding: 10px 15px;
+    background-color: #1bbc9b;
+}
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    
+    char $operator;
+    int a,b;
+    printf("Welcome, which operator do you wanna use:\n+ \n-\n*\n/\n%\np\nEnter Here: ");
+    scanf("%c", &$operator);
+    
+    if($operator == '+' || $operator == '-' || $operator == '*' || $operator == '/' || $operator == '%' || $operator == 'e'){
+        if($operator == '+'){
+            printf("Enter a: ");
+            scanf("%d", &a);
+            printf("Enter b: ");
+            scanf("%d", &b);
+            printf("%d + %d = %d", a, b, a+b);
+        }
+    }
+    else{
+        printf("Invalid entry");
+    }
+    // printf("%s", $operator);
+    
+    return 0;
+}

@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+#sideNav{
+    background-color: whitesmoke;
+    width: 120px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu{
+    width: 29px;
+    /* height: 23px; */
+    margin: 43px;
+}
+
+.logo{
+    margin-left: -10px;
+    margin-top: 220px;
+    transform: rotate(-90deg);
+    width: 290px;
+    align-self: center;
+}

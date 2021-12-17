@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+}
+
+/* nav-bar */
+nav{
+    background-color: rgb(255, 255, 255);
+    height: 64px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+/* nav-bar-middle */
+#nav-middle img{
+    width: 67px;
+    text-align: center;
+}
+#nav-right img{
+    color: #677b8c;
+    width: 31px;
+    text-align: center;
+}
+#nav-middle{
+    position: relative;
+    top: 22px;
+    left: 12px;
+}
+#nav-right{
+    position: relative;
+    top: 15px;
+    right: -451px;
+}
+
+/* hero-section */
+#hero{
+    background-position: center center;
+    background-image: url(../images/hero-img.png);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 651px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    /* width: 1189px; */
+}
+#hero p{
+    text-align: center;
+    color: white;
+    font-size: 53px;
+    font-weight: 580;
+    position: relative;
+    top: 168px;
+    left: 3px;
+}
+
+/* logo-animation-sec */
+#after-hero{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.meta-anim img{
+    /* border: 1px solid gold; */
+    width: 820px;
+    object-fit: cover;
+    object-position: 0px -100px;
+    height: 190px;
+}
+.anim-des p{
+    text-align: center;
+    color: #67788a;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+/* ceo-section-playlist */
+#ceo-sec{
+    display: flex;
+    margin: 48px;
+    margin-top: 236px;
+}
+#ceo-left{
+    /* padding-right: 318px; */
+    height: 521px;
+    background-size: 466px;
+    background-image: url(../images/ceo-img.jpg);
+    width: 1637px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#ceo-left img{
+    width: 40px;
+    margin-right: 11px;
+    
+}
+#ceo-left p{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    width: 176px;
+}
+.play-1 img{
+    width: 45px;
+}
+
+#ceo-right{
+    position: relative;
+    left: 83px;
+}
+.ceo-head{
+    color: #344854;
+}
+.ceo-des{
+    color: #8593a1;
+}
