@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+void main() {
+    int a, b, c, a1, b1, c1;
+    float x1, x2;
+    
+    printf("Enter a b c: ");
+    scanf("%d %d %d", &a, &b, &c);
+    
+    a1 = -b;
+    b1 = (b*b) - (4*a*c);
+    c1 = 2*a;
+
+    
+    x1 = (a1 + sqrt(b1))/c1 ;
+    x2 = (a1 - sqrt(b1))/c1 ;
+    
+    printf("(%d + sqrt(%d))/%d , (%d - sqrt(%d))/%d\n%f %f", a1, b1, c1, a1, b1, c1, x1, x2);
+    
+    // float a = log10(1.1);
+    // printf("log10(1.1) = %f", a);
+    
+}
